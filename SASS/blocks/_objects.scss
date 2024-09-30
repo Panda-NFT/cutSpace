@@ -1,0 +1,43 @@
+
+.objects {
+    max-width: 1360px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.objects__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 150px;
+    overflow: hidden;
+
+}
+
+
+.objects__img {
+//  margin-left: -181px;
+ max-width: 730px;
+}
+
+
+.objects__text {
+    letter-spacing: 1.15px;
+    max-width: 484px;
+    padding-right: 110px;
+
+    
+
+    p {
+        margin-bottom: 20px;
+    }
+    
+}
+
+.objects__title {
+    margin-bottom: 20px;
+} 
+.objects__button {
+    margin-top: 20px;
+}

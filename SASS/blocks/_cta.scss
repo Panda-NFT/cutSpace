@@ -1,0 +1,89 @@
+.cta {
+  margin-bottom: 150px;
+
+  &__title {
+    margin-bottom: 15px;
+  }
+
+  &__text {
+    color: #fff;
+    padding: 92px 117px 91px 95px;
+
+    p {
+      margin-bottom: 30px;
+    }
+  }
+}
+
+.cta__block {
+  background-color: #58bebf;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+
+  &::before {
+    position: absolute;
+    content: "";
+    background-image: url(/images/CTA/ovalTop-right.svg);
+    background-repeat: no-repeat;
+
+    width: 304px;
+    height: 304px;
+    top: 0px;
+    right: -80px;
+    z-index: 10;
+  }
+  &::after {
+    position: absolute;
+    content: "";
+    background-image: url(/images/CTA/ovalBottom.svg);
+    background-repeat: no-repeat;
+
+    width: 304px;
+    height: 304px;
+    bottom: -220px;
+    right: 400px;
+  }
+}
+
+.cta__img {
+  margin-top: 72px;
+
+  img {
+    width: 802px;
+    height: 100%;
+    border: 28px solid #fff;
+    border-radius: 0px 21px 0 0;
+  }
+}
+
+.cta__buttons-row {
+  display: flex;
+  justify-content: space-between;
+  width: 370px;
+}
+
+.button--white {
+  background-color: #fff;
+  color: #323232;
+}
+
+.button--white-play {
+  padding-left: 49px;
+  position: relative;
+
+  &::before {
+    content: "";
+    display: block;
+    width: 12px;
+    height: 12px;
+    background-image: url(/images/icons/play.svg);
+    position: absolute;
+    left: 25px;
+    top: 23px;
+    background-size: initial;
+    background-repeat: no-repeat;
+  }
+}
