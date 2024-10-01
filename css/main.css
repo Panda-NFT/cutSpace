@@ -1,6 +1,6 @@
 * {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -10,36 +10,26 @@ a {
   color: inherit;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
+h1, h2, h3, h4, h5, h6, p {
   font-size: inherit;
 }
 
-input,
-button {
+input, button {
   font-family: inherit;
   font-size: inherit;
   border: none;
 }
 
-button,
-input[type="submit"] {
+button, input[type=submit] {
   cursor: pointer;
   background: none;
 }
 
-input:focus,
-button:focus {
+input:focus, button:focus {
   outline: none;
 }
 
-ul,
-li {
+ul, li {
   list-style: none;
 }
 
@@ -74,11 +64,11 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .logo {
@@ -86,8 +76,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-size: 24px;
   font-weight: 700;
   line-height: 1;
@@ -117,11 +107,11 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .header__text {
@@ -149,9 +139,9 @@ body {
 }
 
 .form {
-  background: #ffffff;
+  background: #FFFFFF;
   -webkit-box-shadow: 0px 17px 42px rgba(0, 0, 0, 0.12);
-  box-shadow: 0px 17px 42px rgba(0, 0, 0, 0.12);
+          box-shadow: 0px 17px 42px rgba(0, 0, 0, 0.12);
   border-radius: 29px;
   height: 58px;
   -webkit-transition: -webkit-box-shadow 0.2s ease-in;
@@ -161,7 +151,7 @@ body {
 }
 .form--active {
   -webkit-box-shadow: 0px 17px 42px rgba(247, 132, 52, 0.27);
-  box-shadow: 0px 17px 42px rgba(247, 132, 52, 0.27);
+          box-shadow: 0px 17px 42px rgba(247, 132, 52, 0.27);
 }
 
 .form__label {
@@ -170,13 +160,13 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding-left: 72px;
   height: 100%;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .form__label::before {
   position: absolute;
@@ -192,8 +182,8 @@ body {
 
 .form__input {
   -webkit-box-flex: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
   margin-right: -49px;
 }
 .form__input::-webkit-input-placeholder {
@@ -238,11 +228,11 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .objects {
@@ -256,11 +246,11 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin-bottom: 150px;
   overflow: hidden;
 }
@@ -320,12 +310,12 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 30px;
   background: #fff;
   -webkit-box-shadow: 4px 20px 42px -2px rgba(0, 0, 0, 0.12);
-  box-shadow: 4px 20px 42px -2px rgba(0, 0, 0, 0.12);
+          box-shadow: 4px 20px 42px -2px rgba(0, 0, 0, 0.12);
   border-radius: 15px;
 }
 
@@ -358,11 +348,11 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   position: relative;
 }
 .cta__block::before {
@@ -402,8 +392,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   width: 370px;
 }
 
@@ -460,13 +450,13 @@ body {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-  justify-content: space-around;
+      justify-content: space-around;
   -webkit-box-align: stretch;
-  -ms-flex-align: stretch;
-  align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
   -webkit-column-gap: 30px;
-  -moz-column-gap: 30px;
-  column-gap: 30px;
+     -moz-column-gap: 30px;
+          column-gap: 30px;
 }
 
 .card-castomer {
@@ -474,18 +464,18 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   background: #fff;
   -webkit-box-shadow: 0px 40px 52px -22px rgba(0, 0, 0, 0.08);
-  box-shadow: 0px 40px 52px -22px rgba(0, 0, 0, 0.08);
+          box-shadow: 0px 40px 52px -22px rgba(0, 0, 0, 0.08);
   border-radius: 10px;
   padding: 40px 88px;
   text-align: center;
@@ -501,11 +491,11 @@ body {
 }
 .card-castomer:hover {
   color: #fff;
-  background-color: #f78434;
+  background-color: #F78434;
 }
 .card-castomer:hover .button {
   background-color: #fff;
-  color: #f78434;
+  color: #F78434;
 }
 .card-castomer:hover .card-castomer__img {
   fill: #fff;
@@ -516,12 +506,12 @@ body {
 }
 
 .serve__button {
-  color: #f78434;
+  color: #F78434;
   background-color: #fff;
 }
 
 .card-castomer__img {
-  fill: #f78434;
+  fill: #F78434;
 }
 
 .benefits {
@@ -538,8 +528,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin: 0 -17.5px;
 }
 
@@ -575,8 +565,7 @@ body {
   -webkit-transition: fill 0.2s ease-in;
   transition: fill 0.2s ease-in;
 }
-.benefit-item:hover .benefit-item__img path,
-.benefit-item:hover .benefit-item__img ellipse {
+.benefit-item:hover .benefit-item__img path, .benefit-item:hover .benefit-item__img ellipse {
   fill: white;
   -webkit-transition: fill 0.2s ease-in;
   transition: fill 0.2s ease-in;
@@ -598,11 +587,11 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-bottom: 60px;
 }
 
@@ -619,11 +608,11 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   position: relative;
 }
 .testimonials__row::after {
@@ -643,21 +632,21 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   max-width: 350px;
   -webkit-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
 }
 .card-testimonial:hover {
   -webkit-box-shadow: 0px 10px 52px rgba(0, 0, 0, 0.08);
-  box-shadow: 0px 10px 52px rgba(0, 0, 0, 0.08);
+          box-shadow: 0px 10px 52px rgba(0, 0, 0, 0.08);
 }
 .card-testimonial:hover .card-testimonial__city {
-  color: #f78434;
+  color: #F78434;
 }
 
 .card-testimonial__img {
@@ -680,7 +669,7 @@ body {
 }
 
 .card-testimonial__city {
-  color: #58bebf;
+  color: #58BEBF;
 }
 
 .contacts {
@@ -700,7 +689,7 @@ body {
   display: block;
   width: 743px;
   height: 372px;
-  background-image: url("https://panda-nft.github.io/cutSpace/images/footer/oval-footer-bg.svg");
+  background-image: url(../../../images/footer/oval-footer-bg.svg);
   background-repeat: no-repeat;
   background-size: initial;
 }
@@ -725,7 +714,6 @@ body {
 
 .contact__title {
   max-width: 360px;
-  color: red;
 }
 
 .footer {
@@ -738,8 +726,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .footer__info {
@@ -766,8 +754,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .nav__block + .nav__block {
