@@ -2,11 +2,10 @@
   position: relative;
   padding-top: 200px;
   padding-bottom: 55px;
-  background: url(/footer/Bg.svg);
+  background-image: url(../../../images/footer/Bg.svg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: rgb(141, 190, 251);
-  color: black;
+  color: #fff;
 
   &::before {
     position: absolute;
@@ -16,7 +15,7 @@
     display: block;
     width: 743px;
     height: 372px;
-    background-image: url(/footer/oval-footer-bg.svg);
+    background-image: url(../../../images/footer/oval-footer-bg.svg);
     background-repeat: no-repeat;
     background-size: initial;
   }
@@ -30,7 +29,7 @@
     width: 478px;
     height: 547px;
     margin-left: 79px;
-    background-image: url(/images/footer/girl.png);
+    background-image: url(../../../images/footer/girl.png);
     background-repeat: no-repeat;
     background-size: initial;
   }
@@ -46,5 +45,5 @@
 
 .contact__title {
   max-width: 360px;
-  color: green;
+  color: red;
 }
