@@ -679,6 +679,7 @@ body {
   background: url(../../../images/footer/Bg.svg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-color: pink;
   color: #fff;
 }
 .contacts::before {
