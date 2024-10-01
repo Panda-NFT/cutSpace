@@ -676,10 +676,10 @@ body {
   position: relative;
   padding-top: 200px;
   padding-bottom: 55px;
-  background: url(../../../images/footer/Bg.svg);
+  background: url(/images/footer/Bg.svg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: pink;
+  background-color: rgb(141, 190, 251);
   color: black;
 }
 .contacts::before {
@@ -690,7 +690,7 @@ body {
   display: block;
   width: 743px;
   height: 372px;
-  background-image: url(../../../images/footer/oval-footer-bg.svg);
+  background-image: url(/images/footer/oval-footer-bg.svg);
   background-repeat: no-repeat;
   background-size: initial;
 }
@@ -703,7 +703,7 @@ body {
   width: 478px;
   height: 547px;
   margin-left: 79px;
-  background-image: url(/images/footer/girl.png) !important;
+  background-image: url(/images/footer/girl.png);
   background-repeat: no-repeat;
   background-size: initial;
 }
