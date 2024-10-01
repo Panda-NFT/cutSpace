@@ -676,7 +676,7 @@ body {
   position: relative;
   padding-top: 200px;
   padding-bottom: 55px;
-  background-image: url(../../../images/footer/Bg.svg);
+  background: url(../../../images/footer/Bg.svg);
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
