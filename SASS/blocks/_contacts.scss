@@ -5,7 +5,7 @@
   background-image: url(../../../images/footer/Bg.svg);
   background-size: cover;
   background-repeat: no-repeat;
-  color: red;
+  color: #fff;
 
   &::before {
     position: absolute;
@@ -45,4 +45,5 @@
 
 .contact__title {
   max-width: 360px;
+  color: red;
 }
